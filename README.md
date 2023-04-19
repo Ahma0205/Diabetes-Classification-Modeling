@@ -28,47 +28,47 @@ Here, we are analyzing different aspects of Diabetes in the Pima Indians tribe b
 
 ### Data Set
 
-	- Dataset is a CSV file contain 9000 records for 36 KB in total contain 7 Integer variables and 2 Float
+- Dataset is a CSV file contain 9000 records for 36 KB in total contain 7 Integer variables and 2 Float
 
 ### Associated tasks
 
-	- Exploratory data analysis
+- Exploratory data analysis
 
-          Checking data types, distributions, corelations through visualization, statistical analysis 
+Checking data types, distributions, corelations through visualization, statistical analysis 
 	
-	- Data cleaning and feature engineering:
+- Data cleaning and feature engineering:
   
-		Checking for outliers, corelation matrix for droping posible high corelated variables
+Checking for outliers, corelation matrix for droping posible high corelated variables
 
-	- Modeling
+- Modeling
   
-		Rescaling the features and Splitting the data set into training and test sets
+Rescaling the features and Splitting the data set into training and test sets
     
-		Training Logistic Regression model for classification of our target value 
+Training Logistic Regression model for classification of our target value 
     
-		Training Random forest for classification of our target value 
+Training Random forest for classification of our target value 
     
-	- Model Evaluation
+- Model Evaluation
   
-		Evaluation of models and comparing the items of the performance of each model
+Evaluation of models and comparing the items of the performance of each model
 
 ### Files
 
-	- Readme.txt
-	- diabetes.csv: 1000 rows and 9 columns. Records: 9000
-	- Mohammad_41109627.ipynb -classification modeling codes
+- Readme.txt
+- diabetes.csv: 1000 rows and 9 columns. Records: 9000
+- Mohammad_41109627.ipynb -classification modeling codes
 
 	
  ### Dataset characteristics
-	
+
 diabetes.csv have the following fields:
 	
-	- Pregnancies: Number of times pregnant
-	- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-	- Blood pressure: Diastolic blood pressure (mm Hg)
-	- SkinThickness: Triceps skinfold thickness (mm)
-	- Insulin: 2-Hour serum insulin (mu U/ml) test
-	- BMI: Body mass index (weight in kg/(height in m)^2)
-	- DiabetesPedigreeFunction: A function that scores likelihood of diabetes based on family history
-	- Age: Age in years
-	- Outcome: Class variable (0: the person is not diabetic or 1: the person is diabetic)
+- Pregnancies: Number of times pregnant
+- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+- Blood pressure: Diastolic blood pressure (mm Hg)
+- SkinThickness: Triceps skinfold thickness (mm)
+- Insulin: 2-Hour serum insulin (mu U/ml) test
+- BMI: Body mass index (weight in kg/(height in m)^2)
+- DiabetesPedigreeFunction: A function that scores likelihood of diabetes based on family history
+- Age: Age in years
+- Outcome: Class variable (0: the person is not diabetic or 1: the person is diabetic)
